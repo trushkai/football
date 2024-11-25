@@ -1,0 +1,98 @@
+/* Общий стиль приложения */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f5f5f5;
+}
+
+/* Приветственное сообщение */
+.greeting-container {
+  margin: 17px 20px 8px 20px;
+}
+
+.greeting-title {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 8px;
+}
+
+.greeting-subtitle {
+  color: #6a6a6a;
+  font-size: 14px;
+}
+
+/* Карточка лиги */
+.league-card-container {
+  padding: 0;
+}
+
+.league-card {
+  height: 70px;
+  background-color: #169F43;
+  background-repeat: no-repeat;
+  background-position: 465px;
+  color: white;
+  border-radius: 12px;
+  margin: 0px 20px 12px 20px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.league-card-header {
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+
+.league-card-avatar {
+  margin-right: 8px;
+}
+
+.league-card-title {
+  flex: 1;
+  color: white;
+}
+
+/* Стили для кнопки "Перейти" */
+.league-card-button {
+  background-color: white;
+  color: #169F43 !important; /* Зелёный цвет текста кнопки */
+  font-size: 14px;
+  font-weight: bold;
+  padding: 0px 16px;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin-top: 18px;
+  align-self: flex-start;
+}
+
+/* Состояние при наведении */
+.league-card-button:hover {
+  background-color: #dcdcdc; /* Серый цвет кнопки при наведении */
+  color: #169F43 !important; /* Более тёмный серый для текста */
+}
+
+/* Состояние при клике */
+.league-card-button:active {
+  background-color: #169F43; /* Ещё более тёмный серый при клике */
+  color: #169F43 !important; /* Очень тёмный серый для текста */
+  box-shadow: none;
+}
+
+/* Подвал с таббаром */
+.footer-tabbar {
+  background: var(--vkui--color_background);
+  padding: 5px 0;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  max-width: 768px;
+  margin: auto;
+  border-top: 1px solid #ddd;
+}
+
+
