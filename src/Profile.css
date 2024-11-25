@@ -1,0 +1,51 @@
+/* Profile.css
+
+.profile-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 16px;
+  }
+  
+  .profile-info {
+    display: flex;
+    align-items: center;
+  }
+  
+  .profile-name {
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: 10px;
+  }
+  
+  .profile-edit-icon {
+    color: #6a6a6a;
+    cursor: pointer;
+  }
+  
+  .profile-section-title {
+    font-size: 16px;
+    font-weight: bold;
+    color: #6a6a6a;
+    margin: 0 16px;
+  }
+  
+  .favorites-list {
+    display: flex;
+    overflow-x: auto;
+    padding: 8px 16px;
+  }
+  
+  .team-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 12px;
+  }
+  
+  .team-name {
+    font-size: 14px;
+    text-align: center;
+    margin-top: 4px;
+    color: #6a6a6a;
+  } */

@@ -30,8 +30,6 @@ body {
 .league-card {
   height: 70px;
   background-color: #169F43;
-  background-repeat: no-repeat;
-  background-position: 465px;
   color: white;
   border-radius: 12px;
   margin: 0px 20px 12px 20px;
@@ -93,6 +91,150 @@ body {
   max-width: 768px;
   margin: auto;
   border-top: 1px solid #ddd;
+  color: #169F43;
+}
+/* Стиль для профиля с аватаром и именем */
+.profile-header {
+  display: flex;
+  align-items: center;
+  padding: 10px 20px;
+  border-radius: 8px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
 }
 
+.profile-avatar {
+  width: 48px;
+  height: 48px;
+  background-color: #eaeaea; /* Цвет фона для отсутствующего аватара */
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 24px;
+  color: #aaa;
+  margin-right: 12px;
+}
+
+.profile-name {
+  font-size: 18px;
+  font-weight: bold;
+  margin-left: 50px;
+}
+.favorites-list-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 8px;
+  background-color: #f5f5f7;
+  border-radius: 8px;
+}
+
+.favorites-list {
+  display: flex;
+  overflow-x: auto;
+  gap: 12px;
+  padding: 0 8px;
+}
+
+.team-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.team-name {
+  font-size: 12px;
+  margin-top: 4px;
+}
+
+.arrow-icon {
+  color: #a3a3a3;
+  cursor: pointer;
+}
+
+.edit-icon {
+  float: right;
+  color: #a3a3a3;
+  cursor: pointer;
+}
+
+
+/*НАЧИНАЕТСЯ CSS ДЛЯ ВЫРАВНИВАНИЯ КОМАНД*/
+
+.team-selection-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 150px);  /* Три колонки */
+  justify-items: center;
+  margin-top: 16px;
+  justify-content: center;
+  align-content: center;
+}
+
+.team-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  cursor: pointer;
+  padding: 8px;
+  border: 2px solid transparent;
+  border-radius: 8px;
+  transition: background-color 0.3s;
+  width: 100%; /* чтобы ячейки не растягивались */
+  max-width: 120px; /* ограничиваем ширину ячейки */
+}
+
+.team-card:hover {
+  background-color: #1bcd57; /* Цвет фона при наведении */
+}
+
+.team-card.selected {
+  background-color: #169F43;
+}
+
+.team-avatar {
+  width: 80px; /* увеличиваем размер иконки */
+  height: 80px;
+  margin-bottom: 4px;
+}
+
+.team-name {
+  font-size: 14px;
+  text-align: center;
+  margin-top: 8px;
+}
+
+.selected-teams-list {
+  margin-top: 16px;
+}
+
+.icon-back {
+  fill: #169F43;
+}
+
+.notification-list,
+.watching-list {
+  margin-top: 10px;
+}
+
+.card-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.card-content .team-info {
+  display: flex;
+  align-items: center;
+}
+
+.card-content .team-info div {
+  margin-left: 10px;
+  font-size: 14px;
+  color: #333;
+}
+
+.arrow-icon {
+  transition: transform 0.3s ease;
+}
 
