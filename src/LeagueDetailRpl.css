@@ -1,7 +1,4 @@
 /* Общий фон */
-body {
-  background-color: #f9fafa;
-}
 
 .vkuiPanel {
   position: relative;
@@ -29,7 +26,6 @@ body {
 
 /* Вкладки */
 .tabs-container {
-  background-color: #fff;
   border: 1px solid #169F43;
   border-radius: 10px;
   margin: 10px 15px;
@@ -66,13 +62,12 @@ body {
 
 .tabs-item--active {
   background-color: #169F43;
-  color: #fff;
+  color: white;
 }
 
 /* Поиск и переключатель */
 .search-container {
   padding: 15px 15px 0;
-  background-color: #ffffff;
 }
 
 .switch-container {
@@ -80,14 +75,12 @@ body {
   justify-content: space-between;
   align-items: center;
   margin-top: 25px;
-  background-color: #EBEDF0;
   border-radius: 8px;
   padding: 8px 15px;
 }
 
 /* Карточки матчей */
 .match-card {
-  background-color: #EBEDF0;
   border-radius: 8px;
   padding: 15px;
   margin: 8px 15px;
@@ -172,13 +165,11 @@ body {
 .league-table {
   width: 100%;
   border-collapse: collapse;
-  background-color: #ffffff;
   font-size: 10px;
   text-align: center;
 }
 
 .table-up {
-  background-color: #EBEDF0;
   color: #888;
 }
 .table-up th:nth-child(2) {
@@ -187,7 +178,6 @@ body {
 
 .league-table tbody {
   font-weight: 600;
-  color: #333333;
 }
 
 .league-table th, .league-table td {
@@ -202,14 +192,6 @@ body {
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap;
-}
-
-.league-table tbody tr:nth-child(odd) {
-  background-color: #ffffff;
-}
-
-.league-table tbody tr:nth-child(even) {
-  background-color: #EBEDF0;
 }
 
 /* Последние 5 игр */
@@ -235,7 +217,6 @@ body {
   width: 100%;
   border-collapse: collapse;
   margin-top: 10px;
-  background-color: #fff;
   overflow: hidden;
 }
 
@@ -258,15 +239,6 @@ body {
 .stats-table th {
   color: #7a7a7a;
   font-weight: bold;
-  background-color: #EBEDF0;
-}
-
-.stats-table tbody tr:nth-child(odd) {
-  background-color: #ffffff;
-}
-
-.stats-table tbody tr:nth-child(even) {
-  background-color: #EBEDF0;
 }
 
 
@@ -284,7 +256,6 @@ body {
   flex-direction: column;
   align-items: center;
   font-size: 12px;
-  color: #333;
 }
 
 .team-add-button {
@@ -310,7 +281,6 @@ body {
 }
 
 .modal-content {
-  background: white;
   padding: 20px;
   border-radius: 8px;
   width: 90%;
@@ -342,7 +312,6 @@ body {
 
 .modal-submit {
   background-color: #4caf50;
-  color: white;
   padding: 10px 20px;
   border: none;
   border-radius: 4px;

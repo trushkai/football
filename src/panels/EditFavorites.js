@@ -46,7 +46,9 @@ export const EditFavorites = ({ id, favorites, onBack, onFavoritesChange }) => {
       console.log("Saving favorites:", selectedTeams); // Лог для отладки
       onFavoritesChange(selectedTeams); // Передача данных в Home
     }
+    if (onBack){
     onBack(); // Возврат к панели Home
+    }
   };
 
   return (
